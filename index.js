@@ -43,7 +43,7 @@ initializeDBAndServer();
 
 
 app.get("/", async (req,res)=>{
-    res.send("Its Working")
+    res.send("Its Working !!!!!!!!")
   })
   
   app.get("/ec/users", async (request, response) => {
